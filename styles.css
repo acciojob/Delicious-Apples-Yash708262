@@ -1,1 +1,44 @@
 /* your code here */
+.product {
+	display:flex;
+}
+.photo-main {
+	background-color:greenyellow;
+}
+.controls {
+	display: flex;
+	justify-content: space-between;
+	color:white;
+	padding : 10px;
+}
+.photo-album > ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+.photo-album > ul > li > img {
+	border: 1px solid black;
+}
+.product__info {
+	padding: 20px;
+}
+.price  {
+	color: red;
+	font-size: 50px;
+}
+.variant > ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	gap: 5px;
+}
+.variant > ul > li > img {
+	border: 1px solid black;
+}
+.cart > button {
+	background-color: red;
+	border :none;
+	border-radius : 5px;
+	padding : 10px 20px;
+	color: white;
+}
